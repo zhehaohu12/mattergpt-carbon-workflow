@@ -1,0 +1,11 @@
+﻿group_i,group_j,JS_divergence_distance_distribution
+Group 1,Group 2,0.00348324
+Group 1,Group 3,0.00327241
+Group 1,Group 4,0.00218804
+Group 1,Group 5,0.00377233
+Group 2,Group 3,0.00207153
+Group 2,Group 4,0.00430687
+Group 2,Group 5,0.00256550
+Group 3,Group 4,0.00487639
+Group 3,Group 5,0.00161625
+Group 4,Group 5,0.00389120
