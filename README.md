@@ -6,7 +6,7 @@
 
 已提供训练/验证数据、模型权重及配套配置、训练与生成启动脚本、两份五组分析脚本以及历史分析汇总表。尚未完成端到端运行验证，历史结果未重新计算。
 
-仍待补充：原实验 SLICES 提交号、依赖环境、硬度标签单位及来源、数据划分方法、解码和筛选流程、十份分析输入及 C32 参考结构。
+仍待补充：原实验 SLICES 提交号、依赖环境、硬度标签单位及来源、数据划分方法、解码和筛选流程、C32 参考结构（十份分析输入已补充）。
 
 ## 内容
 
@@ -44,3 +44,9 @@
 
 - [MatterGPT: A Generative Transformer for Multi-Property Inverse Design of Solid-State Materials](https://arxiv.org/abs/2408.07608).
 - Oganov, A. R. and Valle, M. How to quantify energy landscapes of solids. J. Chem. Phys. 130, 104504 (2009). https://doi.org/10.1063/1.3079326
+
+## 补充资料
+
+十份分析输入现位于 `data/`，新增结果图和 C32 逐结构结果位于 `results/`。详细来源及待补信息见 [补充清单](docs/additions.md)。文件仅整理，未重新计算。
+
+作者确认训练和生成使用未修改的 SLICES 上游实现，仅调整命令行参数。安装步骤参见 [SLICES 官方说明](https://github.com/xiaohang007/SLICES#installation)，实际历史提交号和环境版本尚未固定。
